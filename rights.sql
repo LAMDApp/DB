@@ -1,0 +1,9 @@
+# RIGHTS 
+
+CREATE DATABASE lamd;
+
+CREATE USER 'lamd'@'%' IDENTIFIED BY 'lamd';
+
+GRANT ALL PRIVILEGES ON lamd.* TO 'lamd'@'%';
+
+FLUSH PRIVILEGES;
